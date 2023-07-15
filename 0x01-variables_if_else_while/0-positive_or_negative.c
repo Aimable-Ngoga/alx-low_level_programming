@@ -1,24 +1,30 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * main -Entry point
+ * main - Entry point
  * Return: Always 0 (success)
  */
-int main() {
-    srand(time(NULL));  // Initialize random seed
+int main(void)
+{
 
-    int n = rand() % 201 - 100;  // Generate a random number between -100 and 100
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2 :
 
-    printf("The number %d ", n);
+printf("The number %d ", n);
 
-    if (n > 0) {
-        printf("is positive\n");
-    } else if (n == 0) {
-        printf("is zero\n");
-    } else {
-        printf("is negative\n");
-    }
+if (n > 0)
+printf("%d is positive\n", n);
 
-    return 0;
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
+else
+{
+printf("%d is negative\n", n);
+}
+return (0);
 }
