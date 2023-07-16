@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - program that prints all  possible different sections
+ * main - program that prints all possible different sections
  * of tress numbers.
  *
  * Return: 0
