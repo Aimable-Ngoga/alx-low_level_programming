@@ -1,7 +1,7 @@
-#include "main.h"
+i#include "main.h"
 
 /**
- * binary_to_number - equals a binary digit to unsigned int
+ * binary_to_uint - converts a binary number to unsigned int
  * @b: string containing the binary number
  *
  * Return: the equal number
