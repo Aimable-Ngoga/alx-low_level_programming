@@ -1,1 +1,1 @@
-0x00. C - Hello, World
+0*0 Hello World
